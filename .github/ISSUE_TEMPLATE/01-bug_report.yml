@@ -16,9 +16,9 @@ body:
           label: 💻 실행 환경
           description: 버그가 발생한 환경을 설명해 주세요. ex) 앱 버전, 브라우저 버전 등
           placeholder: |
-          - 앱 버전: 
-          - OS/디바이스: 
-          - 브라우저/앱 채널: 
+              - 앱 버전: 
+              - OS/디바이스: 
+              - 브라우저/앱 채널: 
       validations:
           required: true
     - type: textarea
