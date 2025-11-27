@@ -23,10 +23,9 @@ body:
           required: true
     - type: textarea
       attributes:
-          label: 🧪 테스트 케이스 (선택사항)
+          label: 🧪 테스트 케이스
           description: 버그를 재현하기 위한 테스트 코드 또는 단계가 있다면 작성해 주세요.
           placeholder: |
-              ```typescript
               // Playwright 예시
               test('버그 재현', async ({ page }) => {
                 await page.goto('/');
@@ -39,7 +38,12 @@ body:
                   // ...
                 });
               });
-              ```
+
+              // 또는 재현 단계
+              1. '...'로 이동
+              2. '...' 클릭
+              3. '...' 입력
+              4. 에러 발생
       validations:
           required: true
     - type: textarea
